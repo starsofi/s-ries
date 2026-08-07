@@ -1,39 +1,65 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+ <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listas de Séries</title>
+ <!--A semântica no HTML significa usar as tags certas para cada tipo de conteúdo, ajudando navegadores, mecanismo de busca e leitores de tela a entenderem melhor a estrutura da página --! >
+
+  < !-- Benefícios do HTML Semântico  -->
+
+ <!-- Melhora a acessibilidade(Leitores de tela conseguem interpretar melhor) 
+ Melhora SEO (O Google entende melhor a estrutura do site)
+ Facilita a manutenção do código(código mais organizado e legível)
+ Ajuda na responsividade(tags semânticas trabalham melhor com CSS e JS) -->
 </head>
 <body>
 
-    <h1>Lista com 3 Séries Favoritas</h1>
+    <!-- Sem Semântica -->
+     <!-- <a href="#">ínicio<a/> -->
+       
+       
+        <!-- HTML Semântico -->
+<header>
+    <!-- O topo do site ou de uma seção(Logo, título e menu de navegação) -->
+    <nav>
+        <!-- Contém links de navegação para outras partes do site -->
+        <a href="">Ínicio</a>
+        <a href="">Sobre</a>
+    </nav>
+</header>
+<main>
+    <!-- Contém o conteúdo principal da página -->
+    <h1>Noticias ao vivo do sesi</h1>
+   <section> <h2>Últimas Noticias</h2>
+    <p>hoje foi anunciado um novo projeto...</p>
 
-    <ul>
-        <!-- SÉRIE 1 -->
-        <li>
-            <h2>Stranger Things</h2>
-            <img src="https://m.media-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_.jpg" alt="Stranger things pôster" title="Stranger Things" width="300">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7HiBP1cwt2I?si=ZI6eAtL09zE9e9-Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p><strong>Sinopse:</strong> Um grupo de amigos se envolve em uma série de eventos sobrenaturais em Hawkins. Eles descobrem uma garota com poderes telecinéticos e um portal para uma dimensão alternativa.</p>
-        </li>
+    <article>
+        <!-- Representa um conteúdo independente e autocontido,que pode ser ditribuido ou reutilizado separadamente sem perder o sentido. Ex: Postagens, BLOG, Noticias, comentários de usuários, Cards de produtos, artigos de revista,-->
+        <h3>Os alunos ama ir para o SESI</h3>
+        <p>Descrição...</p>
+    </article>
+</section>
 
-        <!-- SÉRIE 2 -->
-        <li>
-            <h2>Gilmore Girls</h2>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpwC9YCE-RKwuHc9k3-tu-LMAVMeNDhWkMomlorEqBkp6R6HnQqD7-Ds5O&s=10" alt="Gilmore Girls pôster" title="Gilmore Girls" width="300">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jYwX-BSUmaI?si=Ir7_Pq9OxiNuGsR9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p><strong>Sinopse:</strong> A série acompanha o relacionamento cúmplice e bem-humorado entre a mãe solteira Lorelai e sua filha adolescente Rory, enquanto vivem na peculiar cidade de Stars Hollow.</p>
-        </li>
 
-        <!-- SÉRIE 3 -->
-        <li>
-            <h2>Criando Dion</h2>
-            <p><strong>Sinopse:</strong> Uma mãe solteira precisa esconder os superpoderes do seu filho, Dion, para protegê-lo de exploradores e vilões enquanto tenta descobrir a origem das habilidades dele.</p>
-            <img src="https://m.media-amazon.com/images/M/MV5BNTE1NmU1OTAtOGZhNC00ZmU4LWJiYWMtNGIzMjEzNzg0MGFmXkEyXkFqcGc@._V1_.jpg" alt="Criando Dion pôster" title="Criando Dion" width="300">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GuFHKbsQp90?si=eSOY6yQJEdVqLbpL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </li>
-    </ul>
+<aside>
+    <!--TAG usada para conteúdos secundários ou complementares,que não fazem parte do fluxo principal do documento.Normalmente, ela aparece como:
+    -Barras laterais
+    -Informações adicionais
+    -Anúncios -->
+    <h3>vídeos recomendados</h3>
+</aside>
 
+
+</main>
+     <footer>
+        <!-- representa o rodapé da página, contendo informações como copyright e links secundários
+         Quando usar?
+         -Final da páginaa -->
+        <p>2026 facebook🗽🗽🌆 AGNES GOSTA DO PIDRU Todos os direitos reservados</p>
+     </footer>
+    
 </body>
 </html>
