@@ -1,0 +1,50 @@
+body{
+      /* Nome da cor */
+      /* background-color: red */
+
+      /* hexadecimal */
+      /* background-color: #007480 */
+
+      /* RGB */
+      /*  rgb(0, 116, 128) */
+
+      background-color: rgb(102, 0, 128);
+
+      h1 {
+        color: rgb(30, 129, 210);
+       
+
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+      }
+      h2 {
+        color: rgb(0, 183, 255);
+        font-size: 5vw;
+         font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+      }
+      p{
+       font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+        /* Espaçamento entre linhas */
+        line-height: 2em;
+      }
+      span{
+        font-size: 2em;
+        color: rgb(0, 204, 255);
+      }
+}
+
+/* px(pixels) é uma unidade fixa.O tamanho sempre será o mesmo, independente do tamanho da tela. */
+/* 2EM - O dobro do tamanho padrão, significa que ele é o multiplicador do tamanho base */
+/* 120% - 20% maior que o padrão */
+/* 5vw - 5% de largura da tela/ isso faz com que o tamnho da tela se ajuste ao tamanho da tela*/
+
+/* Controla a grossura(negrito) do texto.
+100 = Super fino
+400  = normal
+700 = Negrito
+900 = Super negrito */
