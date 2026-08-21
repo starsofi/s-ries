@@ -1,0 +1,53 @@
+body{
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+
+}
+
+h1{
+margin-bottom: 5px;
+
+}
+
+h2{
+margin-top: 40px;
+
+}
+
+.block{
+display: block;
+background-color: aquamarine;
+padding: 15px;
+margin: 5px;
+border: 2px solid rgb(229, 128, 145)
+
+
+}
+
+/* ================== */
+/* 2.Inline */
+/* ================== */
+/* ocupa só o epaço do conteúdo */
+.inline {
+display: inline;
+background-color: aqua;
+padding: 10px;
+border: 2px solid skyblue;
+
+}
+
+/* INLINE BLOCK */
+.inline-block{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    background-color: deeppink;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid rgb(38, 136, 38);
+
+
+
+}
